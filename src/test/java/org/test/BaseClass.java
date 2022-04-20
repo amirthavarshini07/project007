@@ -17,9 +17,9 @@ public class BaseClass {
 		
 //***********for single browser launch************		
 //		WebDriverManager.chromedriver().setup();
-//		driver=new ChromeDriver();
+//	driver=new ChromeDriver();
 //		return driver;
-		
+//		
 //**************using if else condition *************
 //	if(browserName.equals("chrome")) {
 //		WebDriverManager.chromedriver().setup();
@@ -190,7 +190,12 @@ public class BaseClass {
     Select s=new Select(e);
     s.getOptions();
 }
+private void getOptions() {
+	
 
+}
+ 
+  
 	
 
 
